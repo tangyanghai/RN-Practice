@@ -8,7 +8,6 @@ import {
     ReloadInstructions
 } from "react-native/Libraries/NewAppScreen";
 import {ReactNode} from "react";
-import Test from "../layout/Test";
 
 /**
  * 这里是RN官网测试应用的js端代码
@@ -22,7 +21,6 @@ function Section(props: ISection) {
     const isDarkMode = false;
     return (
         <View style={styles.sectionContainer}>
-            <Test/>
             <Text
                 style={[
                     styles.sectionTitle,
